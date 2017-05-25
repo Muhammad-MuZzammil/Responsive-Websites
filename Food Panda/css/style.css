@@ -1,0 +1,249 @@
+html,
+body{
+    height: 100%;
+    font-family: "OpenSans-Regular";
+}
+
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: local('OpenSans-Regular.ttf'), url('OpenSans-Regular.ttf') format('truetype');
+
+}
+
+/*START HOME */
+#home {
+    background: url('../img/2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.home-container{
+    
+    background-color: rgba(255, 255, 255,0.6);
+}
+.menu-bar{
+    display: none;
+}
+.menuBarBtn{
+    background-color: #ea5b31;
+    color: white;
+}
+.header-row{
+    width: 100%;
+    height: 4rem;
+    background-color: #ea5b31 ;
+}
+.page-header{
+    
+    padding-bottom: 0.5%;
+}
+.pandaImg{
+    margin-top: 2%;
+}
+.label{
+    margin-left: 0.5%;
+}
+.icon{
+    margin-left: 2rem;
+}
+.helpLogin{
+    margin-top: 2%;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 17px;
+    
+}
+
+.main-heading{
+    font-family: 'OpenSans-Regular';
+    color: #ea5b31;
+    margin-top: 9rem;
+    font-size: 56.7px;
+}
+.sub-heading{
+    font-family: 'OpenSans-Regular';
+    /*font-size: 2rem;*/
+}
+.citySelect{
+    padding-left: 10px;
+    color: #18A689;
+    width: 100%;
+    text-align: left;
+    height: 3rem;
+    background-color: white;
+    border: 1px solid #18A689;
+    border-radius: 1px;
+    margin-top: 10px;
+    
+    
+    
+}
+.selectOption{
+    color: gray;
+    top: 92%;
+    border: 1px solid #18A689;
+    border-top-color: white;
+}
+.areaInput{
+    height: 3rem;
+    width: 100%;
+    border: 1px solid #18A689;
+    /*margin-left: -0.5%;*/
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.restaurantBtn{
+    height: 3rem;
+    width: 100%;
+    background-color: #18A689;
+    border: 1px solid #18A689;
+    /*margin-left: -0.5%;*/
+    color: white;
+    margin-top: 10px;
+
+}
+.formDiv{
+    margin-top: 2rem;
+    height: 19%;
+    width: 72%;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding-top: 1.5rem;
+    margin-left: 12rem;
+    padding-left: 10px;
+    padding-right:  10px;
+
+}
+.setCol{
+    padding-left: 0;
+    padding-right:  0;
+
+}
+
+
+/*END HOME*/
+
+
+/*Media Quries*/
+@media only screen and (max-width: 1200px) {
+    .main-heading{
+        margin-top: 3rem;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .formDiv {
+    height: 33.5%;
+    width: 50%;
+    margin-left: 15rem;
+    padding-left: 1rem;
+
+    }
+    .formDiv form {
+         width: 169%;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .formDiv {
+        margin-left: 11.5rem;
+        
+    }
+}
+@media only screen and (max-width: 767px) {
+    .pandaImg{
+        height: 2rem;
+    }
+    .header-row{
+        height: 3rem;
+    }
+    .formDiv {
+        margin-left: 10.5rem;
+        width: 55%
+    }
+    .formDiv form {
+         width: 119%;
+    }
+    .main-heading{
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width: 543px) {
+    .formDiv {
+        margin-left: 4.5rem;
+        width: 66%
+    }
+    .formDiv form {
+         width: 96%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .helpLogin{
+        display: none;
+    }
+    .header-row img{
+    margin-left: 9rem;
+    height: 2rem;
+    margin-top: -3.5rem;
+    }
+    .menu-bar{
+        
+    display: block;
+    margin-left: 1.5rem;
+    padding-top: 1rem;
+}
+.sideBar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999999;
+    background-color: rgba(0,0,0,.2);  
+}
+.frontSideBar{
+    position: relative;
+    width: 320px;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 40px #1c2c3a;
+}
+    .sidebarHeader{
+    background-color: #ea5b31;
+    height: 18%;
+    }
+    .sidebarHeader img{
+    margin-top: -1rem;
+    margin-left: 2rem;
+    height: 4rem;
+    border-radius: 3rem;
+    }
+    .sidebarHeader label{
+    margin-left: 2rem;
+    color: white;
+    font-size: 20px;
+    padding-top: 3rem;
+    }
+    .sidebarBody{
+
+    }
+    .sidebarBody ul li {
+    list-style: none;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    margin-left: -1rem;
+
+    }
+.sidebarBody ul li i {
+    font-size: 1.7rem;
+    margin-right: 15px;
+}
+.sidebarBody ul  hr{
+    margin-left: -1rem;
+    width: 96%;
+    margin-top: 0.2rem;
+}
+.sidebarBody ul li a{
+    color: gray;
+}
+        
+}
