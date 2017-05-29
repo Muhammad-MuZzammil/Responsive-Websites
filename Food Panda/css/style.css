@@ -12,11 +12,15 @@ body{
 
 /*START HOME */
 #home {
-    background: url('../img/2.jpg');
+        background: url(../img/2.jpg);
     background-size: cover;
     background-position: center;
+    box-shadow: inset 0 6px 8px -6px rgba(0,0,0,.1);
+    position: relative;
+    height: 663px;
 }
 .home-container{
+    height: 663px;
     
     background-color: rgba(255, 255, 255,0.6);
 }
@@ -27,17 +31,19 @@ body{
     background-color: #ea5b31;
     color: white;
 }
-.header-row{
-    width: 100%;
+.page-header .row{
+    background-color: #ea5b31;
     height: 4rem;
-    background-color: #ea5b31 ;
+    
 }
+
 .page-header{
     
     padding-bottom: 0.5%;
 }
 .pandaImg{
-    margin-top: 2%;
+    margin-top: 1%;
+    margin-left: 1.8rem;
 }
 .label{
     margin-left: 0.5%;
@@ -50,18 +56,22 @@ body{
     font-weight: 300;
     color: rgba(255, 255, 255, 0.6);
     font-size: 17px;
+    padding-left: 8%;
     
 }
 
 .main-heading{
     font-family: 'OpenSans-Regular';
-    color: #ea5b31;
-    margin-top: 9rem;
-    font-size: 56.7px;
+    color: rgba(234, 91, 49, 0.8);
+    margin-top: 5rem;
+    font-size: 50px;
+    margin-left: 11.5rem;
 }
 .sub-heading{
     font-family: 'OpenSans-Regular';
-    /*font-size: 2rem;*/
+    color: rgba(0, 0, 0, 0.5);
+    margin-left: 27rem;
+    
 }
 .citySelect{
     padding-left: 10px;
@@ -102,62 +112,186 @@ body{
     margin-top: 10px;
 
 }
+
 .formDiv{
     margin-top: 2rem;
-    height: 19%;
-    width: 72%;
+    height: 18%;
+    width: 60rem;
     background-color: rgba(255, 255, 255, 0.6);
     padding-top: 1.5rem;
-    margin-left: 12rem;
-    padding-left: 10px;
-    padding-right:  10px;
+    text-align: center;
+    margin-left: 8rem;
+    padding-left: 30px;
+    padding-right: 30px;
 
 }
+.formDiv form{
+    width: 900px;
+}
 .setCol{
+
+    /*width: 300px;*/
     padding-left: 0;
     padding-right:  0;
 
 }
-
-
 /*END HOME*/
 
+/* Start Food Steps*/
+
+#foodSteps{
+
+}
+.title{
+    text-align: center;
+    margin-top: 1rem;
+    margin-left: 7rem;
+    font-size: 18px;
+    color: #777;
+}
+.trigger{
+    color: #333;
+    font-weight: 700;
+    padding: 0 20px;
+    cursor: pointer;
+    position: relative;
+}
+#foodSteps hr{
+    width: 82.2rem;
+    margin-left: -7rem;
+}
+    .fa-play{
+    font-size: 14px;
+    padding-left: 0.5rem;
+    }
+    .fa-sort-desc{
+    font-size: 25px;
+    padding-left: 0.3rem;
+    
+    }
+    
+/*End Food Steps*/
 
 /*Media Quries*/
 @media only screen and (max-width: 1200px) {
-    .main-heading{
-        margin-top: 3rem;
+    
+    .home-container{
+        height: 567px;
     }
+    #home{
+        height: 567px;
+    }
+    .headingDiv{
+    margin-top: -2.5rem;
+}
+.headerImgDiv{
+    margin-left: 5rem;
+}
+.formDiv{
+    height: 20%;
+    margin-left: 4.4rem;
+}
+.main-heading{
+    margin-top: 8rem;
+    margin-left: 8rem;
+}
+.sub-heading{
+    margin-left: 24rem;
+
+    
+}
+}
+@media only screen and (max-width: 1110px) {
+ .formDiv{
+    width: 56rem;
+}   
+ .formDiv form{
+    width: 840px;
+}   
+.main-heading{
+    font-size: 45px;
+}
+
 }
 @media only screen and (max-width: 991px) {
+    #home{
+        height: 600px;
+    }
+    .home-container{
+    height: 600px;
+}
+
     .formDiv {
-    height: 33.5%;
-    width: 50%;
-    margin-left: 15rem;
-    padding-left: 1rem;
+    height: 210px;
+    width: 420px;
+    margin-left: 16rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.6rem;
 
     }
+
     .formDiv form {
-         width: 169%;
+    display: block;
+    width: 693px;
     }
+    .helpLogin{
+    margin-top: 2.5%;
+    margin-left: -82px;
+    }
+    .pandaImg
+    {
+    margin-left: -3.7rem;
+    margin-top: 3%;
+    }
+    .main-heading{
+    font-size: 57px;
+    margin-top: 5rem;
+    text-align: center;
+    margin-left: 0rem;
+    }
+    .sub-heading{
+    margin-left: 18rem;
+    }
+    
 }
 
 @media only screen and (max-width: 850px) {
     .formDiv {
         margin-left: 11.5rem;
-        
+    }
+    .sub-heading{
+        margin-left: 13rem;
+    }
+    .main-heading{
+        margin-left: -1rem;
     }
 }
 @media only screen and (max-width: 767px) {
-    .pandaImg{
-        height: 2rem;
+    #home{
+    height: 370px
     }
-    .header-row{
-        height: 3rem;
+    .home-container{
+    height: 370px
+    }
+    .helpLogin {
+    padding-left: 35%;
+    margin-top: 0.5rem;
+    }
+.helpLogin span{
+    margin-left: 0.5rem;
+}
+    .pandaImg{
+    height: 2rem;
+    margin-top: 0.3rem;
+    margin-left: -5rem;
+    }
+    .page-header .row{
+        height: 2.5rem;
     }
     .formDiv {
-        margin-left: 10.5rem;
-        width: 55%
+        margin-left: 9rem;
+        width: 420px
     }
     .formDiv form {
          width: 119%;
@@ -166,10 +300,16 @@ body{
         font-size: 25px;
     }
 }
+@media only screen and (max-width: 660px) {
+    .formDiv{
+        margin-left: 4rem
+    }
+}
+
 @media only screen and (max-width: 543px) {
     .formDiv {
-        margin-left: 4.5rem;
-        width: 66%
+    margin-left: 2.5rem;
+    width: 85%;
     }
     .formDiv form {
          width: 96%;
@@ -177,19 +317,24 @@ body{
 }
 
 @media only screen and (max-width: 480px) {
-    .helpLogin{
+    .page-header .row {
+    height: 3.5rem;
+    box-shadow: 0 0 40px black;
+    }
+        .helpLogin{
         display: none;
     }
-    .header-row img{
-    margin-left: 9rem;
+    .headerImgDiv img{
+    margin-left: 3rem;
     height: 2rem;
-    margin-top: -3.5rem;
+    margin-top: 1rem;
     }
     .menu-bar{
-        
+    position: absolute;
     display: block;
-    margin-left: 1.5rem;
-    padding-top: 1rem;
+    margin-left: 1rem;
+    padding-top: 0rem;
+    margin-top: -2.5rem;
 }
 .sideBar{
     position: fixed;
@@ -197,7 +342,7 @@ body{
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 9999999;
+    z-index: 1;
     background-color: rgba(0,0,0,.2);  
 }
 .frontSideBar{
@@ -205,7 +350,7 @@ body{
     width: 320px;
     height: 100%;
     background-color: #fff;
-    box-shadow: 0 0 40px #1c2c3a;
+    box-shadow: 0 0 25px #1c2c3a;
 }
     .sidebarHeader{
     background-color: #ea5b31;
@@ -221,7 +366,7 @@ body{
     margin-left: 2rem;
     color: white;
     font-size: 20px;
-    padding-top: 3rem;
+    padding-top: 2rem;
     }
     .sidebarBody{
 

@@ -1,49 +1,18 @@
 // START HOME
-$(window).resize(function (e) { $('#home').height(window.innerHeight) });
-$(window).resize(function (e) { $('.home-container').height(window.innerHeight) });
+// $(window).resize(function (e) { $('#home').height(window.innerHeight) });
+// $(window).resize(function (e) { $('.container ').height(window.innerHeight) });
 
-$(window).resize(function (e) { $('.header-row').width(window.innerWidth) });
+// $(window).resize(function (e) { $('.header-row').width(window.innerWidth) });
 // $('#home').height(window.innerHeight)
-// END HOME
 
 
 
-// $(document).ready(function () {
-
-
-//     var sideBar = false;
-//     // $(".sideBar").toggleClass("animated slideOutLeft");
-
-//     if (sideBar == false) {
-//                 sideBar = true;
-//         $(".sideBar").hide("fast").addClass("animated slideOutLeft")
-
-
-//     }
-//     $(".menuBarBtn").click(function () {
-
-//         $(".sideBar").removeClass("animated slideOutLeft")
-//         if (sideBar == true) {
-//             $(".sideBar").show("fast").addClass("animated slideInLeft")
-
-//             sideBar = false;
-
-
-//         }
-//         else {
-//                 $(".frontSideBar").addClass("animated slideOutLeft")
-
-//                 sideBar = true;
-
-
-//         }
-//     })
-// })
 $(document).ready(function () {
+        $(".sideBar").hide()
 
     var sideBar = false;
     if (sideBar == false) {
-        $(".sideBar").hide()
+        
         sideBar = true;
 
     }
@@ -52,11 +21,14 @@ $(document).ready(function () {
         $(".sideBar").removeClass("animated slideOutLeft")
         
         if (sideBar == true) {
-            $(".sideBar").show("slow").addClass("animated slideInLeft")
+            $(".sideBar").show().addClass("animated slideInLeft")
             sideBar = false;
         }
     })
     $(".sideBar").click(function () {
+        $(".sideBar").hide()
+        
+        // $(".sideBar").removeClass("animated slideOutLeft")
         
         if (sideBar == false) {
         $(".sideBar").addClass("animated slideOutLeft")
@@ -64,5 +36,29 @@ $(document).ready(function () {
             // $(".sideBar").addClass("animated slideOutLeft")
             sideBar = true;
         }
+        // $(".sideBar").hide()
+        
     })
 })
+// END HOME
+
+
+// Start Food Steps
+$(document).ready(function(){
+        var arrowbtn = false 
+    $(".fa-play").click(function(){
+        if (arrowbtn == true) {
+        $(".fa-sort-desc").removeClass("fa-sort-desc")
+        $(".title .fa").addClass("fa-play")
+        arrowbtn = false; 
+        }
+        else {
+        $(".fa-play").removeClass("fa-play")
+            $(".title .fa").addClass("fa-sort-desc")
+        arrowbtn = true; 
+        }
+    })
+       
+})
+
+// End Food Steps
