@@ -45,20 +45,27 @@ $(document).ready(function () {
 
 // Start Food Steps
 $(document).ready(function(){
+            $(".img-content").hide()
+    
         var arrowbtn = false 
     $(".fa-play").click(function(){
         if (arrowbtn == true) {
         $(".fa-sort-desc").removeClass("fa-sort-desc")
         $(".title .fa").addClass("fa-play")
+            $(".img-content").hide()
+        
         arrowbtn = false; 
         }
         else {
         $(".fa-play").removeClass("fa-play")
             $(".title .fa").addClass("fa-sort-desc")
+            $(".img-content").show()
         arrowbtn = true; 
         }
     })
        
 })
+
+
 
 // End Food Steps

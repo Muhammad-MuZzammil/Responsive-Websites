@@ -61,11 +61,11 @@ body{
 }
 
 .main-heading{
-    font-family: 'OpenSans-Regular';
+   font-family: 'OpenSans-Regular';
     color: rgba(234, 91, 49, 0.8);
-    margin-top: 5rem;
-    font-size: 50px;
-    margin-left: 11.5rem;
+    margin-top: 9rem;
+    font-size: 48px;
+    margin-left: 15.5rem;
 }
 .sub-heading{
     font-family: 'OpenSans-Regular';
@@ -120,7 +120,7 @@ body{
     background-color: rgba(255, 255, 255, 0.6);
     padding-top: 1.5rem;
     text-align: center;
-    margin-left: 8rem;
+    margin-left: 11.3rem;
     padding-left: 30px;
     padding-right: 30px;
 
@@ -139,13 +139,10 @@ body{
 
 /* Start Food Steps*/
 
-#foodSteps{
 
-}
 .title{
     text-align: center;
     margin-top: 1rem;
-    margin-left: 7rem;
     font-size: 18px;
     color: #777;
 }
@@ -156,10 +153,7 @@ body{
     cursor: pointer;
     position: relative;
 }
-#foodSteps hr{
-    width: 82.2rem;
-    margin-left: -7rem;
-}
+
     .fa-play{
     font-size: 14px;
     padding-left: 0.5rem;
@@ -169,8 +163,28 @@ body{
     padding-left: 0.3rem;
     
     }
+    .img-content{ 
+        margin-top: 2rem;
+        text-align: center;
+    }
+    .img-content h6{
+        margin-bottom: 1rem;
+    }
+    
     
 /*End Food Steps*/
+
+/*start order food*/
+.firstRow{
+    text-align: center;
+    margin-top: 2.5rem;
+}
+.secondRow{
+    margin-left: 4.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+/*End order food*/
 
 /*Media Quries*/
 @media only screen and (max-width: 1200px) {
@@ -197,9 +211,19 @@ body{
 }
 .sub-heading{
     margin-left: 24rem;
-
-    
 }
+/*End Home*/
+
+/*Start Food steps*/
+
+.img-content{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+/*End Food steps*/
+
+
 }
 @media only screen and (max-width: 1110px) {
  .formDiv{
@@ -211,6 +235,7 @@ body{
 .main-heading{
     font-size: 45px;
 }
+
 
 }
 @media only screen and (max-width: 991px) {
@@ -241,7 +266,7 @@ body{
     }
     .pandaImg
     {
-    margin-left: -3.7rem;
+    margin-left: 1rem;
     margin-top: 3%;
     }
     .main-heading{
@@ -253,7 +278,7 @@ body{
     .sub-heading{
     margin-left: 18rem;
     }
-    
+   
 }
 
 @media only screen and (max-width: 850px) {
@@ -298,6 +323,7 @@ body{
     }
     .main-heading{
         font-size: 25px;
+        margin-top: 3.5rem;
     }
 }
 @media only screen and (max-width: 660px) {
