@@ -65,12 +65,13 @@ body{
     color: rgba(234, 91, 49, 0.8);
     margin-top: 9rem;
     font-size: 48px;
-    margin-left: 15.5rem;
+    margin-left: 17.5rem;
 }
 .sub-heading{
     font-family: 'OpenSans-Regular';
     color: rgba(0, 0, 0, 0.5);
-    margin-left: 27rem;
+    margin-left: 32rem;
+    font-size: 1.6rem;
     
 }
 .citySelect{
@@ -120,7 +121,7 @@ body{
     background-color: rgba(255, 255, 255, 0.6);
     padding-top: 1.5rem;
     text-align: center;
-    margin-left: 11.3rem;
+    margin-left: 13.3rem;
     padding-left: 30px;
     padding-right: 30px;
 
@@ -175,16 +176,46 @@ body{
 /*End Food Steps*/
 
 /*start order food*/
-.firstRow{
+
+.main-img{
     text-align: center;
-    margin-top: 2.5rem;
-}
-.secondRow{
-    margin-left: 4.5rem;
-    margin-top: 1.5rem;
+    margin-top: 2rem;
     margin-bottom: 2rem;
 }
+.sub-img{
+    float: left;
+    width: 19.5rem;
+    padding-left: 15%;
+}
 /*End order food*/
+
+/*Start Popular Restaurants*/
+    .restaurantsHeading{
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    }
+    .restaurantsHeading h3{
+        font-size: 1.5rem;
+    }
+    .restaurantsImg1{
+        text-align: center;
+    }
+    .restaurantsImg1 img{
+        margin-right: 1rem;
+        margin-bottom: 5rem;
+            width: 10%;
+    }
+    .restaurantsImg2{
+        text-align: center;
+    }
+    .restaurantsImg2 img{
+        margin-right: 1rem;
+        margin-bottom: 1.5rem;
+        width: 13%;
+    }
+/*End Popular Restaurants*/
+
 
 /*Media Quries*/
 @media only screen and (max-width: 1200px) {
@@ -223,7 +254,9 @@ body{
 
 /*End Food steps*/
 
-
+.sub-img{
+    padding-left: 2rem;
+}
 }
 @media only screen and (max-width: 1110px) {
  .formDiv{
@@ -235,7 +268,9 @@ body{
 .main-heading{
     font-size: 45px;
 }
-
+.sub-img{
+        padding-left: 2.5%;
+}
 
 }
 @media only screen and (max-width: 991px) {
@@ -277,6 +312,17 @@ body{
     }
     .sub-heading{
     margin-left: 18rem;
+    }
+    .main-img img{
+        width: 105%;
+    }
+    .sub-img{
+   padding-left: 17%;
+    margin-left: -5rem;
+    }
+    .sub-img img{
+        width: 120%;
+        
     }
    
 }
@@ -325,14 +371,33 @@ body{
         font-size: 25px;
         margin-top: 3.5rem;
     }
+    .sub-img{
+    padding-left: 25%;
+    margin-left: -8rem;
+    }
+    .sub-img img{
+        width: 110%;
+    }
 }
 @media only screen and (max-width: 660px) {
     .formDiv{
         margin-left: 4rem
     }
 }
-
+@media only screen and (max-width: 576px) {
+    .main-img img{
+        width: 100%;
+    }
+    .sub-img{
+    padding-left: 30%;
+    margin-left: -9rem;
+}
+.sub-img img{
+    width: 120%;
+}
+}
 @media only screen and (max-width: 543px) {
+
     .formDiv {
     margin-left: 2.5rem;
     width: 85%;
@@ -340,6 +405,10 @@ body{
     .formDiv form {
          width: 96%;
     }
+      .sub-img{
+    padding-left: 37%;
+    margin-left: -10rem;
+}
 }
 
 @media only screen and (max-width: 480px) {
@@ -416,5 +485,13 @@ body{
 .sidebarBody ul li a{
     color: gray;
 }
+.sub-img  {
+    padding-left: 0%;
+    margin-left: 5rem;
+}
+.sub-img img {
+    width: 95%;
+}
+
         
 }
