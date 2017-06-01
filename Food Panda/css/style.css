@@ -215,6 +215,104 @@ body{
         width: 13%;
     }
 /*End Popular Restaurants*/
+/*Start Cuisines*/
+.CuisinesHeading{
+    padding-top: 5rem;
+    padding-bottom:  2rem;
+    text-align: center;
+}
+    .cuisinesContent{
+        height: 20rem;
+        margin-left: 13rem;
+        margin-right: -19rem;
+    }
+    .cuisinesContent ul li{
+        list-style: none;
+    }
+    .cuisinesContent ul li a{
+        color: rgba(0, 0, 0, 0.9);
+    }
+/*End Cuisines*/
+
+/*Start footer*/
+.footer{
+    background: #363535;
+    font-size: 16px;
+}
+
+/*Start Subscribe*/
+    .mobileImg{
+    position: absolute;
+    margin-top: -3rem;
+    margin-left: 15rem;
+    left: 0;
+    }
+    .downloadApp {
+    margin-left: 26.5rem;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    }
+    .downloadApp h5{
+    font-size: 20px;
+    color: #20AC76;
+    }
+    .downloadApp h3{
+    font-size: 32px;
+        
+    }
+    .subscribe{
+    margin-top: 3.5rem;
+    text-align: center;
+    color: white;
+    margin-bottom: 4rem;
+
+    }
+    .subscribe h1{
+        padding-top: 4rem;
+    }
+    .subscribe p{
+        padding-top: 1rem;
+        padding-bottom: 2rem; 
+    }
+    .subscribe span i{
+        color: #efbc39;
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+    }
+    .login{
+    margin-bottom: 2rem;
+
+    }
+.login select{
+    height: 2.8rem;
+    width: 70%;
+    padding-left: 1rem;
+    color: gray;
+   margin-left: 6rem;
+}
+.login input{
+    height: 2.8rem;
+    width: 95%;
+    padding-left: 1rem;
+    color: gray;
+}
+.login button{
+    height: 2.8rem;
+    width: 70%;
+    /*padding-left: 1rem;*/
+    color: white;
+    border-radius: 4px;
+    background-color:  #20AC76;
+    margin-left: -5rem;
+
+}
+    .checkbox{
+        
+    }
+/*End Subscribe*/
+
+/*End footer*/
 
 
 /*Media Quries*/
@@ -257,6 +355,12 @@ body{
 .sub-img{
     padding-left: 2rem;
 }
+  .cuisinesContent{
+        
+        margin-left: 2rem;
+        margin-right: -3rem;
+    }
+  
 }
 @media only screen and (max-width: 1110px) {
  .formDiv{
@@ -273,7 +377,7 @@ body{
 }
 
 }
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 992px) {
     #home{
         height: 600px;
     }
@@ -324,7 +428,12 @@ body{
         width: 120%;
         
     }
-   
+   .cuisinesContent{
+   }
+   .downloadApp{
+       text-align: center;
+       margin-left: 0;
+   }
 }
 
 @media only screen and (max-width: 850px) {
@@ -378,6 +487,14 @@ body{
     .sub-img img{
         width: 110%;
     }
+    .cuisinesContent{
+    margin-left: -2rem;
+    margin-right: -1rem;
+   }
+   .downloadApp{
+       margin-top: 9rem;
+
+   }
 }
 @media only screen and (max-width: 660px) {
     .formDiv{
@@ -409,6 +526,10 @@ body{
     padding-left: 37%;
     margin-left: -10rem;
 }
+ .cuisinesContent{
+        margin-left: -6rem;
+    margin-right: 6rem;
+   }
 }
 
 @media only screen and (max-width: 480px) {
