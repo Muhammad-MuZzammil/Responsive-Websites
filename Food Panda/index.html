@@ -41,11 +41,14 @@
                         </div>
                         <div class="sidebarBody">
                             <ul>
-                                <li><a href=""><i class="fa fa-bars" aria-hidden="true"></i> <label for="">Restaurants</label></a></li>
+                                <li><a href=""><i class="fa fa-bars" aria-hidden="true"></i>
+                                 <label for="">Restaurants</label></a></li>
                                 <hr>
-                                <li><a href=""><i class="fa fa-user" aria-hidden="true"></i> <label for="">Log in or Sign up</label></a></li>
+                                <li><a href=""><i class="fa fa-user" aria-hidden="true"></i> 
+                                <label for="">Log in or Sign up</label></a></li>
                                 <hr>
-                                <li><a href=""><i class="fa fa-comment-o" aria-hidden="true"></i> <label for="">Help</label></a></li>
+                                <li><a href=""><i class="fa fa-comment-o" aria-hidden="true"></i>
+                                 <label for="">Help</label></a></li>
                             </ul>
                         </div>
 
@@ -359,62 +362,209 @@
     <div class="hidden-xs-down">
         <img src="img/20.png" alt="" class="mobileImg hidden-md-down">
         <div class="downloadApp">
-            <h3><b>foodpanda in your pocker!</b></h3>
+            <h3><b>foodpanda in your pocket!</b></h3>
             <h5><b>Get our app, it's the fastest way to order food on the go.</b></h5>
             <img src="img/21.png" alt="">
             <img src="img/22.png" alt="">
         </div>
+    </div>
 
-        <!--Start footer-->
-        <footer class="footer">
-            <section id="subscribe">
-                <div class="container-fluid">
-                    <!--Start Subscribe-->
-                    <div class="subscribe">
-                        <h1><b>Subscribe to our newsletter:</b></h1>
-                        <span><i class="fa fa-check" aria-hidden="true"></i> Don't miss out on our great offers</span>
-                        <span><i class="fa fa-check" aria-hidden="true"></i> Receive deals from all our top restaurants via e-mail</span>
-                        <form>
-                            <div class="row">
-                                <div class="col-xl-4  col-lg-4 col-md-4   login">
-                                    <select>
-                            <option value="karachi">Karachi</option>
-                            <option value="lahore">Lahore</option>
-                            </select>
-                                </div>
-                                <div class="col-xl-4 col-lg-4 col-md-4 login">
-                                    <input type="text" placeholder="Enter your e-mail">
-                                </div>
-                                <div class="col-xl-4  col-lg-4 col-md-4 login">
-                                    <button class=" btn loginBtn">Sign up now</button>
-                                </div>
-                            </div>
-                            <div class="checkbox">
-                                <label> <input type="checkbox" > I have read and accepted the Terms 
-                                and conditions and Privacy policy</label>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="outlets">
+    <!--Start footer-->
+    <footer class="footer hidden-xs-down">
+        <section id="subscribe">
+            <div class="container-fluid">
+                <!--Start Subscribe-->
+                <div class="subscribe">
+                    <h1><b>Subscribe to our newsletter:</b></h1>
+                    <span><i class="fa fa-check" aria-hidden="true"></i> 
+                    Don't miss out on our great offers</span>
+                    <span><i class="fa fa-check" aria-hidden="true"></i> 
+                    Receive deals from all our top restaurants via e-mail</span>
+                    <form>
                         <div class="row">
-
+                            <div class="col-xl-4  col-lg-4 col-md-4 col-sm-12  login">
+                                <select>
+                                        <option value="selection">Please select your city</option>
+                                        <optgroup label="Popular cities">
+                                            <option value="karachi">Karachi</option>    
+                                            <option value="lahore">Lahore</option>
+                                        </optgroup>
+                                        <optgroup label="More cities">
+                                            <option value="quetta">Quetta</option>
+                                            <option value="multan">Multan</option>
+                                            <option value="sukkur">Sukkur</option>
+                                        </optgroup>
+                                </select>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 login">
+                                <input type="text" placeholder="Enter your e-mail">
+                            </div>
+                            <div class="col-xl-4  col-lg-4 col-md-4 col-sm-12 login">
+                                <button class=" btn loginBtn">Sign up now</button>
+                            </div>
                         </div>
-                    </div>
-                    <div class="socialMediaLogin">
+                        <div class="checkbox">
+                            <input type="checkbox" class="checkboxInput">
 
+                            <label>  I have read and accepted the Terms 
+                                and conditions and Privacy policy</label>
+                        </div>
+                    </form>
+                    <div class="footer-separator"></div>
+                </div>
+
+
+            </div>
+        </section>
+        <!--End Subscribe-->
+
+        <!--Start popularity-->
+        <section id="popularity">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3  popular-content">
+                        <h3><b>Popular cities</b></h3>
+                        <ul>
+                            <li>Karachi</li>
+                            <li>Lahore</li>
+                            <li>Islamabad</li>
+                            <li>Rawalpindi</li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-3 col-lg-3  popular-content">
+                        <h3><b>Popular cuisines</b></h3>
+                        <ul>
+                            <li>Pizza in Lahore</li>
+                            <li>Chinese in Karachi</li>
+                            <li>Desserts in Karachi</li>
+                            <li>Chinese in Lahore</li>
+                            <li>Breakfast in Karachi</li>
+                            <li>Seafood in Karachi</li>
+                            <li>Steakhouse in Karachi</li>
+                            <li>Fast food in Karachi</li>
+                            <li>Seafood in Islamabad</li>
+                            <li>Burgers in Karachi</li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-3 col-lg-3  popular-content">
+                        <h3><b>Restaurants</b></h3>
+                        <ul>
+                            <li>14th Street Pizza</li>
+                            <li>McDonalds</li>
+                            <li>KFC</li>
+                            <li>Hoagies</li>
+                            <li>New Yorker Pizza Islamabad</li>
+                            <li>Cinnabon</li>
+                            <li>Espresso</li>
+                            <li>Rowtisserie</li>
+                            <li>Ginoginelles</li>
+                            <li>Subway</li>
+                            <li>Nando's</li>
+                            <li>Broadway Pizza</li>
+                            <li>Butlers Chocolate Cafe</li>
+                            <li>Sarpino's Pizzeria</li>
+                            <li>KBC</li>
+                            <li>Pizza Max</li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-3 col-lg-3  popular-content">
+                        <h3><b>foodpanda</b></h3>
+                        <ul>
+                            <li>About Us</li>
+                            <li>Press</li>
+                            <li>Contact and Help</li>
+                            <li>Terms and conditions</li>
+                            <li>Privacy policy</li>
+                            <li>Download our app for free</li>
+                            <li>Certified partner</li>
+                            <li>Can't find the restaurant of your choice?</li>
+                            <li>Partner with us</li>
+                        </ul>
                     </div>
                 </div>
-            </section>
-            <!--End Subscribe-->
+                <!--Start socialMediaLogin-->
+                <div class="socialMediaLogin">
+                    <h5><b>Get in touch</b></h5>
+                    <ul>
+                        <li> <img src="img/23.png" alt=""></li>
+                        <li> <img src="img/24.png" alt=""></li>
+                        <li> <img src="img/25.png" alt=""></li>
+                        <li> <img src="img/26.png" alt=""></li>
 
-        </footer>
+                    </ul>
+                </div>
+                <!--End socialMediaLogin-->
+            </div>
+        </section>
+        <!--End popularity-->
 
-        <!--End footer-->
+        <!--Start order Food Online -->
+        <section id="onlineOrder">
+            <div class="onlineFoodHeading">
+                <h3><b>Order food from the best restaurants on foodpanda</b></h3>
+                <hr>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-2 col-lg-2 col-md-3 offset-lg-1 onlineFoodImg">
+                        <img src="img/27.png" alt="">
+                    </div>
+                    <div class="col-xl-8 col-lg-8 col-md-8 onlineFoodText">
+                        <p>Are you hungry? Had a long and busy day? Then foodpanda is the right place for you! foodpanda, offers
+                            you a long and detailed <span> list of the best
+                                       restaurants near you</span>. Whether it is a delicious Pizza, Burger, Japanese or
+                            any kind of Fast Food you are craving, foodpanda has an extensive roaster of 750 restaurants;
+                            further, if you are in the mood for Indian, Pakistani, or Afghan cuisines, there are plenty of
+                            restaurants available for you to <span>
+                                       order food online with home delivery </span>. foodpanda is available in a total of
+                            9 cities in Pakistan, among which are the top popular four cities: Islamabad, Lahore, Rawalpindi,
+                            and Karachi.</p>
 
-        <script src="js/jquery-3.1.0.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/jquery.waypoints.min.js"></script>
-        <script src="js/main.js"></script>
+                        <h5><b>What's new?</b></h5>
+                        <ul>
+                            <li> <i class="fa fa-check" aria-hidden="true"></i> Selection of premium restaurants, all kind of
+                                cuisines.</li>
+                            <li><i class="fa fa-check" aria-hidden="true"></i> High quality delivery service.</li>
+                            <li> <i class="fa fa-check" aria-hidden="true"></i> Live chat feature to give App users instant help
+                                when they need it.</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-xl-8 offset-lg-1 onlineFoodText">
+                        <h6><b>Choose from over 28 cuisines and order online for home delivery</b></h6>
+                        <p>Starting from the first steps of ordering food online via foodpanda Pakistan, the experience is assured
+                            to satisfy every customer. Offering a great choice of food ranging from Steaks , Sushi, Sandwiches,
+                            BBQ, Tandoori Chicken, Fried Chicken to cuisines such as French, Italian, Mediterranean, Korean,
+                            Lebanese, Bakery or great Ice Cream for Dessert, foodpanda provides a delivery service made to
+                            especially care for every necessity and exceed the expectations of every customer. Pizza in Karachi,
+                            Burger in Lahore or Sandwiches in Islamabad? Among the great cuisines available on foodpanda,
+                            choosing the one cuisine you want to order online can be a challenging task; but rest assured,
+                            you can try one special cuisine every day and foodpanda will always keep its promise and keep
+                            delivering your favorite dishes of your favorite cuisines from your favorite restaurants straight
+                            to your doorsteps! Order great pizza from California Pizza, exciting cusine from Sakura Pearl,
+                            whether you're in Allama Iqbal Town or Clifton. Many of your favourite dishes from around the
+                            world can easily be ordered using foodpanda, like Egg Fried Rice, fresh salad and many types
+                            of Chicken, like Chicken Biryani, Chicken Manchurian, Chicken Karahi, and Chicken Tikka.</p>
+                    </div>
+                    <div class="col-xl-2 onlineFoodImg">
+                        <img src="img/28.png" alt="" class="cuisinesImg">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!--End order Food footerSection-->
+
+    </footer>
+
+    <!--End footer-->
+
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
