@@ -237,8 +237,61 @@ body{
 /*Start footer*/
 .footer{
     background: #363535;
-    font-size: 16px;
 }
+.mobile-subscribe{
+    background: linear-gradient(rgba(255,255,255,.2),rgba(255,255,255,.1));
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.mobile-subscribe form{
+    background-color: rgba(0, 0, 0, 0.1);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.mobile-subscribe h6{
+    text-align: center;
+    color: #cecece;
+    padding-top: 2rem;
+    font-size: 18px;
+}
+.select{
+    text-align: center;
+}
+.selectCities{
+    padding-left: 10px;
+    color: #363535;
+    width: 92%;
+    height: 3rem;
+    background-color: white;
+    border: 1px solid #18A689;
+    border-radius: 1px;
+    margin-top: 10px;
+    margin-bottom: 1rem;
+}
+.inputAndBtn{
+    padding-bottom: 2rem;
+}
+.inputAndBtn input{
+    height: 3rem;
+    padding-left: 10px;
+    width: 92%;
+    border: 1px solid #18A689;
+    margin-left: 1rem;
+}
+.inputAndBtn button{
+   background-color: #188159;
+    border: 1px solid #188159;
+    border-radius: 1px;
+    height: 3rem;
+    width: 3.5rem;
+    color: white;
+    margin-left: -3.5rem;
+    margin-top: 0rem;
+    position: absolute;
+}
+
 
 /*Start Subscribe*/
     .mobileImg{
@@ -258,8 +311,10 @@ body{
     }
     .downloadApp h3{
     font-size: 32px;
-        
     }
+    .downloadApp img{
+        padding-top: 1rem;
+   }
     .subscribe{
     margin-top: 3.5rem;
     text-align: center;
@@ -288,6 +343,7 @@ body{
     height: 2.8rem;
     width: 62%;
     padding-left: 1rem;
+    padding-right: 1rem;
     border-radius: 4px;
     color: gray;
     margin-left: 13rem;
@@ -383,7 +439,7 @@ body{
     padding-bottom:  20px;
     border-top: 1px solid #464646;
 }
-.onlineFoodHeading h3,h6{
+ .onlineFoodHeading h3{
     padding-bottom: 1rem;
     padding-top: 1rem;
     color: #efefef;
@@ -397,7 +453,7 @@ body{
     color: #cecece;
 }
 .onlineFoodText h5{
-    color: white;
+    color: #efefef;
     padding-top: 2rem;
     padding-bottom: 1rem;
 }
@@ -414,9 +470,52 @@ body{
     color: #ff8c00;
 }
 .cuisinesImg{
-    margin-top: 8rem
+    margin-top: 5rem
 }
 /*End order Food Online*/
+
+/*Start other countries and Terms and conditions*/
+    .otherCountries hr{
+    margin: 20px 0;
+    border-color: #464646;
+}
+.otherCountries h4{
+    color: white;
+    margin-left: 9rem;
+    font-size: 20px;
+    
+}
+.otherCountries p{
+    margin-left: 8rem;
+}
+
+.otherCountries p a{
+    margin-left: 1rem;
+    color: #cecece;
+}
+
+.termsAndConditions{
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.termsAndConditions ul{
+    padding-left: 0;    
+    color: #999191;
+    list-style: none;
+    margin-left: -5px;
+}
+.termsAndConditions ul li{
+    margin: 0 10px;
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding: 2px 0;
+}
+ .termsAndConditions ul li a {
+    color: #999191;
+ }
+/*End other countries and Terms and conditions*/
 /*End footer*/
 
 
@@ -540,8 +639,7 @@ body{
         width: 120%;
         
     }
-   .cuisinesContent{
-   }
+   
    .downloadApp{
        text-align: center;
        margin-left: 0;
@@ -644,6 +742,7 @@ body{
    .downloadApp{
        margin-top: 9rem;
    }
+   
    .subscribe form{
        margin-top: 2rem;
    }
@@ -666,8 +765,22 @@ body{
     .onlineFoodImg{
         text-align: center;
     }
+    .otherCountries h4{
+        margin-left: 0
+    }
+    .otherCountries p{
+        margin-left: 0
+        
+    }
 
+    .termsAndConditions ul li{
     
+    display: block;
+    border-top: 1px solid #464646;
+    padding-top: 0.5rem;
+    margin-bottom:  0.5rem;
+    
+}
 
 }
 @media only screen and (max-width: 660px) {
@@ -688,6 +801,8 @@ body{
 }
 .sub-img img{
     width: 120%;
+    margin-top: -1rem;
+    
 }
   
 }
