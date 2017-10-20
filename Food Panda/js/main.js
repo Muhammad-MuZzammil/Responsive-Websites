@@ -1,12 +1,4 @@
 // START HOME
-// $(window).resize(function (e) { $('#home').height(window.innerHeight) });
-// $(window).resize(function (e) { $('.container ').height(window.innerHeight) });
-
-// $(window).resize(function (e) { $('.header-row').width(window.innerWidth) });
-// $('#home').height(window.innerHeight)
-
-
-
 $(document).ready(function () {
         $(".sideBar").hide()
 
@@ -28,12 +20,10 @@ $(document).ready(function () {
     $(".sideBar").click(function () {
         $(".sideBar").hide()
         
-        // $(".sideBar").removeClass("animated slideOutLeft")
         
         if (sideBar == false) {
         $(".sideBar").addClass("animated slideOutLeft")
             
-            // $(".sideBar").addClass("animated slideOutLeft")
             sideBar = true;
         }
         // $(".sideBar").hide()
@@ -65,7 +55,4 @@ $(document).ready(function(){
     })
        
 })
-
-
-
 // End Food Steps

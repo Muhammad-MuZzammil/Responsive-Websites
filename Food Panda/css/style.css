@@ -296,12 +296,12 @@ body{
 /*Start Subscribe*/
     .mobileImg{
     position: absolute;
-    margin-top: -3rem;
+    margin-top: -2rem;
     margin-left: 15rem;
     left: 0;
     }
     .downloadApp {
-    margin-left: 26.5rem;
+    margin-left: 27.5rem;
     margin-top: 5rem;
     margin-bottom: 2rem;
     }
@@ -801,7 +801,7 @@ body{
 }
 .sub-img img{
     width: 120%;
-    margin-top: -1rem;
+    margin-top: 1rem;
     
 }
   

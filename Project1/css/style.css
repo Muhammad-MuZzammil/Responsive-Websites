@@ -1,0 +1,46 @@
+/* section header-nav */
+.headerNavUl {
+  margin-left: 10%;
+}  
+
+.headerNavForm input{
+  border-radius: 2px;
+  background-color: #343A40;
+  text-align: center;
+  color: white;
+}
+.headerNavIcon, .headerNavUl a, .headerNavForm > i, .headerNavForm input::-webkit-input-placeholder {
+  color: white;
+}
+.form-inline{
+  flex-flow: row;
+}
+.registerBtn, .loginBtn{
+  background-color : white
+}
+.headerNavForm, .registerBtn, .loginBtn{
+  margin-left: 1.5rem;
+}
+
+/* Responsiveness */
+
+/* section header-nav */
+
+@media only screen and (min-width: 1195px){
+  .headerNavUl {
+    margin-left: 0%;
+  } 
+}
+@media only screen and (max-width: 575px){
+  
+  .headerNavForm > input, i{
+    margin-right: 1rem; 
+  }
+  .headerNavForm{
+    width:70%;
+  }
+}
+
+  @media only screen and (min-width: 350px){
+    
+    }
