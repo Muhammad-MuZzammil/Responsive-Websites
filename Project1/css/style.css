@@ -1,4 +1,8 @@
-/* section header-nav */
+html,body{
+  height: 100%
+}
+
+/* Start headerNav */
 .headerNavUl {
   margin-left: 10%;
 }  
@@ -21,26 +25,66 @@
 .headerNavForm, .registerBtn, .loginBtn{
   margin-left: 1.5rem;
 }
+/* End headerNav */
+
+
+/* Start Journey */
+ #journey{
+  margin-top: 75px;
+}
+.journeyDiv1 img,h4{
+  margin-left: 7rem;
+}
+.journeyDiv1 h4{
+  display: inline;
+  margin-left: 1rem;
+}
+.journeyDiv2 h4{
+  margin-top: 5px;
+  margin-left: 10rem;
+  
+}
+
+.ez,.head2{
+  color: #C31C50;
+}
+
+/* End Journey */
 
 /* Responsiveness */
 
-/* section header-nav */
 
-@media only screen and (min-width: 1195px){
+@media only screen and (max-width: 1265px){
   .headerNavUl {
     margin-left: 0%;
   } 
 }
+  
+  @media only screen and (max-width: 991px){
+      .journeyDiv1 , .journeyDiv1 h4,.journeyDiv2 h4{
+      display: block;
+      text-align: center;
+    }
+    .journeyDiv1 img, .journeyDiv2 h4{
+      margin-left: 0rem
+    }
+}
+
 @media only screen and (max-width: 575px){
   
   .headerNavForm > input, i{
     margin-right: 1rem; 
   }
-  .headerNavForm{
-    width:70%;
-  }
+ 
 }
 
-  @media only screen and (min-width: 350px){
-    
+  @media only screen and (max-width: 396px){
+    .headerNavForm{
+      
+      width:75%;
     }
+    #menuBar{
+      width: 30px;
+    }
+    }
+    
